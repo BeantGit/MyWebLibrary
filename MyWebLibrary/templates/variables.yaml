@@ -1,4 +1,4 @@
-base_image: beants1411987/tomcat
-tag: latest
-project_war: abcd.war
-container_port:8080
+base_image: "beants1411987/tomcat"
+tag: "latest"
+project_war: "abcd.war"
+container_port: "8080"
