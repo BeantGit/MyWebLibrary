@@ -1,4 +1,5 @@
-base_image: "beants1411987/tomcat"
+docker_repo: beants1411987
+base_image: "tomcat"
 tag: "latest"
 project_war: "abcd.war"
 container_port: "8080"
