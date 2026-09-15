@@ -1,0 +1,3 @@
+FROM {{base_image}}:{{tag}}
+COPY {{project_war}} /opt/tomcat/webapps/
+EXPOSE {{container_port}}
