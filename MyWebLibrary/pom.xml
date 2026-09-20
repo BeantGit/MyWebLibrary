@@ -20,6 +20,12 @@
     <version>6.1.0</version>
     <scope>provided</scope>
 </dependency>
+<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>javax.servlet-api</artifactId>
+    <version>4.0.1</version> <!-- Use 3.1.0 or matching version for older servers -->
+    <scope>provided</scope>
+</dependency>
   </dependencies>
   <build>
     <finalName>MyWebLibrary</finalName>
